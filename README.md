@@ -1,6 +1,6 @@
 # Simple Pricing Service
 Simple implementation of pricing service, which calculates prices for creating offers. See article on 
-[allegrotech.io](http://allegrotech.io/acceptance-testing-with-jbehave-and-gradle.html) blog.
+[allegro.tech](http://allegro.tech/acceptance-testing-with-jbehave-and-gradle.html) blog.
 
 ### Building project
 
