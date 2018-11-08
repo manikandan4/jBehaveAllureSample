@@ -11,9 +11,12 @@ dependencies {
   compile 'com.google.guava:guava:18.0'
   testCompile 'junit:junit:4.11'
   testCompile 'org.assertj:assertj-core:1.7.0'
-  testCompile 'org.jbehave:jbehave-core:3.9.5'
+  testCompile 'org.jbehave:jbehave-core:4.3.5'
   testCompile 'org.jbehave.site:jbehave-site-resources:3.1.1:@zip'
+  testCompile 'io.qameta.allure:allure-jbehave:2.7.0'
+  
 }
+
 
 sourceSets.test.resources.srcDir 'src/test/java'
 
@@ -45,3 +48,4 @@ def jarPath(String jarName) {
 task wrapper(type: Wrapper) {
   gradleVersion = '2.2.1'
 }
+
